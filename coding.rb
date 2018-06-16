@@ -1,5 +1,7 @@
 require 'digest'
 
+#this is sample
+
 puts 'Input your world!'
 
 world = STDIN.gets.chomp
