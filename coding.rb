@@ -6,14 +6,14 @@ puts 'Input your world!'
 
 world = STDIN.gets.chomp
 
-if world.is_a?(String) and world != nil
+# if world.is_a?(String) and world != nil
 
   puts "What method of coding do you choice?  ? \n1. MD5
 \n2. SHA1 \n3. SHA2"
 
   input_num = STDIN.gets.to_i
 
-  if input_num.is_a?(Numeric) and input_num != nil
+ # if input_num.is_a?(Numeric) and input_num != nil
 
     if input_num == 1
 
@@ -29,14 +29,14 @@ if world.is_a?(String) and world != nil
 
     end
 
-  else
+ # else
 
-    puts "Please, enter corect number!"
+  #  puts "Please, enter corect number!"
 
-  end
+ # end
 
   puts "Your world looks like: #{cod_world}"
 
-end
+# end
 
 
