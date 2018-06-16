@@ -1,12 +1,12 @@
 require 'digest'
 
-puts 'Привет! Введите слово или фразу для шифрования'
+puts 'Input your world!'
 
 world = STDIN.gets.chomp
 
 if world.is_a?(String) and world != nil
 
-  puts "Каким шифром воспользоваться ? \n1. MD5
+  puts "What method of coding do you choice?  ? \n1. MD5
 \n2. SHA1"
 
   input_num = STDIN.gets.to_i
@@ -25,11 +25,11 @@ if world.is_a?(String) and world != nil
 
   else
 
-    puts "Не верный номер"
+    puts "Please, enter corect number!"
 
   end
 
-  puts "Вот что получилось: #{cod_world}"
+  puts "Your world looks like: #{cod_world}"
 
 end
 
