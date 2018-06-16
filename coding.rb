@@ -8,8 +8,7 @@ world = STDIN.gets.chomp
 
 # if world.is_a?(String) and world != nil
 
-  puts "What method of coding do you choice?  ? \n1. MD5
-\n2. SHA1 \n3. SHA2"
+  puts "What method of coding do you choice?  ? \n1. MD5\n2. SHA1 \n3. SHA2"
 
   input_num = STDIN.gets.to_i
 
@@ -22,11 +21,7 @@ world = STDIN.gets.chomp
     elsif input_num == 2
 
       cod_world = Digest::SHA1.hexdigest "#{world}"
-
-    elsif input_num == 3
-
-      cod_world = Digest::SHA2.hexdigest "#{world}"
-
+      
     end
 
  # else
